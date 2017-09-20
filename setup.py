@@ -10,6 +10,7 @@ setup(
   email="zack@zacklearns.ca",
   url="https://github.com/miniblast",
   scripts=["bin/miniblast.py","bin/miniblast.rb"],
+  packages=["miniblast","merrors"]
   classifiers=[
     "Development Status :: 1 - Pre-alpha",
     "Enviroment :: Web Enviroment",
