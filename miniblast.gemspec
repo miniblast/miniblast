@@ -3,7 +3,7 @@ Gem::Specification.new do |s|
   s.version     = "1.0.0"
   s.date        = "2010-04-28"
   s.summary     = "The Python framework that gives you a blast."
-  s.description = "The Python web development framework that gives you a blast forward in your website."
+  s.description = "The Python web development framework that gives you a blast forward in your website with Python."
   s.authors     = ["Zack Pace"]
   s.email       = "zack@zacklearns.com"
   s.files       = ["miniblast/miniblast.rb"]
