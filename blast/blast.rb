@@ -5,7 +5,7 @@ Gem::Loader.new CONFIGS
 
 # Start Blast Module.
 module BLAST
-  blast = YAML.load_file(File.join(File.expand_path("../."),"blast.yml")
+  bml = YAML.load_file(File.join(File.expand_path("../."),"blast.yml")
   if not bml["Ruby"]
     puts "Blast :: Internal Error :: Value Invalid/Not Found"
   else
