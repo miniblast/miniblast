@@ -13,6 +13,6 @@ Gem::Specification.new do |s|
   s.license                 = "MIT"
   s.required_ruby_version   = ">= 2.4.2"
   s.platform                = Gem::Platform::RUBY
-  s.add_dependency("miniblast")
+  s.add_dependency("supportlibrary")
   s.add_dependency("blast")
 end
