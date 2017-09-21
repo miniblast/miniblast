@@ -1,2 +1,2 @@
 # miniblast
-Miniblast for The Boo Programming Language.
+Miniblast for The Ruby Language.
