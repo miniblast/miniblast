@@ -6,7 +6,7 @@ Gem::Specification.new do |s|
   s.description = "The Python web development framework that gives you a blast forward in your website with Python."
   s.authors     = ["Zack Pace"]
   s.email       = "zack@zacklearns.com"
-  s.files       = ["miniblast/miniblast.rb"]
+  s.files       = ["README.MD"]
   s.homepage    =
     "http://github.com/miniblast"
   s.license       = "MIT"
