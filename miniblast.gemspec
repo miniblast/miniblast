@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name                    = "miniblast"
-  s.version                 = "1.0.0"
+  s.version                 = "1.1.2"
   s.date                    = "2010-04-28"
   s.summary                 = "The Ruby framework that gives you a blast."
   s.description             = "The Ruby web development framework that gives you a blast forward in your website with Python."
