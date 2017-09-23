@@ -1,8 +1,0 @@
-var myName as string = "zack";
-pri !myName;
-
-func priNm |
-  pri !myName
-|
-
-priNm
