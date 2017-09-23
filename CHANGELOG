@@ -1,6 +1,0 @@
-1.0.* || First Update
--   Add newest features and Ruby support.
--   Add Changelog and Miniblast module for Python.
-      1.0.1 || Latest Update
-      -   Convert code to Ruby
-      -   Change .gemspec
