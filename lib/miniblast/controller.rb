@@ -64,7 +64,7 @@ module Miniblast
     def controller_name
       klass = self.class
       klass = klass.to_s.gsub /Controller$/, ""
-      Rulers.to_underscore klass
+      Miniblast.to_underscore klass
     end
   end
 end
