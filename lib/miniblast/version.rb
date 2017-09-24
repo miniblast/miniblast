@@ -1,3 +1,3 @@
-module Rulers
-  VERSION = "0.0.2"
+module Miniblast
+  VERSION = "1.3.1"
 end
