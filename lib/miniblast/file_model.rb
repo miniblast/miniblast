@@ -36,9 +36,9 @@ module Miniblast
 
       def self.create(attrs)
         hash = {}
-        hash["submitter"] = attrs["submitter"] || ""
-        hash["quote"] = attrs["quote"] || ""
-        hash["attribution"] = attrs["attribution"] || ""
+        hash["author"] = attrs["author"] || ""
+        hash["data"] = attrs["data"] || ""
+        hash["function"] = attrs["function"] || ""
 
         files = Dir["db/*.json"]
         names = files.map { |f| f.split("/")[-1] }
