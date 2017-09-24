@@ -1,9 +1,9 @@
 require "sqlite3"
-require "rulers/util"
+require "miniblast/util"
 
 DB = SQLite3::Database.new "test.db"
 
-module Rulers
+module Miniblast
   module Model
     class SQLite
       def self.table
