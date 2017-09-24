@@ -1,18 +1,18 @@
 require_relative "test_helper"
 
-class TestController < Rulers::Controller
+class TestController < Miniblast::Controller
   def index
-    "Hello!"
+    "Hello from Miniblast"
   end
 end
 
-class TestApp < Rulers::Application
+class TestApp < Miniblast::Application
   def get_controller_and_action(env)
     [TestController, "index"]
   end
 end
 
-class RulersAppTest < Test::Unit::TestCase
+class MiniblastAppTest < Test::Unit::TestCase
   include Rack::Test::Methods
 
   def app
