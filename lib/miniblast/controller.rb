@@ -1,10 +1,10 @@
 require "erubis"
-require "rulers/file_model"
+require "miniblast/file_model"
 require "rack/request"
 
-module Rulers
+module Miniblast
   class Controller
-    include Rulers::Model
+    include Miniblast::Model
 
     def initialize(env)
       @env = env
