@@ -1,5 +1,5 @@
 require "multi_json"
-module Rulers
+module Miniblast
   module Model
     class FileModel
       def initialize(filename)
