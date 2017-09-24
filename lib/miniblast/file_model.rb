@@ -23,7 +23,7 @@ module Miniblast
 
       def self.find(id)
         begin
-          FileModel.new("db/quotes/#{id}.json")
+          FileModel.new("db/#{id}.json")
         rescue
           return nil
         end
