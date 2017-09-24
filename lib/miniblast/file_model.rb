@@ -30,7 +30,7 @@ module Miniblast
       end
 
       def self.all
-        files = Dir["db/quotes/*.json"]
+        files = Dir["db/*.json"]
         files.map { |f| FileModel.new f }
       end
 
@@ -40,22 +40,22 @@ module Miniblast
         hash["quote"] = attrs["quote"] || ""
         hash["attribution"] = attrs["attribution"] || ""
 
-        files = Dir["db/quotes/*.json"]
+        files = Dir["db/*.json"]
         names = files.map { |f| f.split("/")[-1] }
         highest = names.map { |b| b[0...-5].to_i }.max
         id = highest + 1
 
-        File.open("db/quotes/#{id}.json", "w") do |f|
+        File.open("db/#{id}.json", "w") do |f|
           f.write <<TEMPLATE
 {
-  "submitter": "#{hash["submitter"]}",
-  "quote": "#{hash["quote"]}",
-  "attribution": "#{hash["attribution"]}"
+  "author": "#{hash["author"]}",
+  "data": "#{hash["data"]}",
+  "function": "#{hash["function"]}"
 }
 TEMPLATE
         end
 
-        FileModel.new "db/quotes/#{id}.json"
+        FileModel.new "db/#{id}.json"
       end
 
     end
