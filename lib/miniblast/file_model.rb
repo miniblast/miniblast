@@ -39,6 +39,7 @@ module Miniblast
         hash["author"] = attrs["author"] || ""
         hash["data"] = attrs["data"] || ""
         hash["function"] = attrs["function"] || ""
+        hash["attributes"] = attrs["attributes"] || ""
 
         files = Dir["db/*.json"]
         names = files.map { |f| f.split("/")[-1] }
@@ -51,6 +52,11 @@ module Miniblast
   "author": "#{hash["author"]}",
   "data": "#{hash["data"]}",
   "function": "#{hash["function"]}"
+  "attributes": {
+    {
+      #{"attributes"}
+    }
+  }
 }
 TEMPLATE
         end
