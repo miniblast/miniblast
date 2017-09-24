@@ -54,7 +54,7 @@ module Miniblast
   "function": "#{hash["function"]}"
   "attributes": {
     {
-      #{"attributes"}
+      #{hast["attributes"]}
     }
   }
 }
