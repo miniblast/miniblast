@@ -73,7 +73,7 @@ class RouteObject
   end
 end
 
-module Rulers
+module Miniblast
   class Application
     def route(&block)
       @route_obj ||= RouteObject.new
