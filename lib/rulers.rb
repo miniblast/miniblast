@@ -1,11 +1,11 @@
-require "rulers/version"
-require "rulers/routing"
-require "rulers/util"
-require "rulers/dependencies"
-require "rulers/controller"
-require "rulers/file_model"
+require "miniblast/version"
+require "miniblast/routing"
+require "miniblast/util"
+require "miniblast/dependencies"
+require "miniblast/controller"
+require "miniblast/file_model"
 
-module Rulers
+module Miniblast
   class Application
     def call(env)
       if env['PATH_INFO'] == '/favicon.ico'
